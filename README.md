@@ -1,7 +1,11 @@
 # EclipseClimateBridge
 
 An Android app (`bridge-app`) that joins a Mitsubishi Eclipse Cross PHEV's Wi-Fi and
-starts/stops its climate control. You can trigger it from a button in the app or by calling
+starts/stops its climate control. 
+
+General idea is to have android phone with this app in the car always. You just call to the phone in a car and it will start predefined operation (heating, cooling or heating windshield).
+
+You can trigger it from a button in the app or by calling
 the phone from an allowlisted number. It's pure Kotlin. There's no Gradle and no native code:
 [bridge-app/build.ps1](bridge-app/build.ps1) runs the Android SDK command-line tools directly.
 
