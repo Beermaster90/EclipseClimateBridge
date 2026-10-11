@@ -1,0 +1,10 @@
+# Android SDK Platform Tools (ADB, Fastboot, and bundled dependencies)
+/platform-tools/
+
+# Vehicle credentials and diagnostic captures must stay local
+/.secrets/
+*.pcap
+*.pcapng
+
+# Local Android build outputs
+.claude/CLAUDE.md
